@@ -7,4 +7,8 @@ import geopandas as gpd
 # Leer archivos que tengan datos espaciales
 # Por ejemplo: Geojson
 
-archivo = gpd.read_file("custom.geo.json")
+archivo = gpd.read_file("custom.geojson")
+
+
+print (archivo.head())
+
