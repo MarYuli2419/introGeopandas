@@ -14,3 +14,5 @@ print (archivo.head())
 
 archivo.plot()
 plt.show()
+
+print(archivo.crs)
